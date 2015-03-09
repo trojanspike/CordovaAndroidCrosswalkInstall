@@ -6,8 +6,8 @@
 base=$(pwd)
 
 CROSSWALK_VERSION="10.39.235.15"
-CROSS_WALK_86="https://download.01.org/crosswalk/releases/crosswalk/android/stable/$CROSSWALK_VERSION/x86/crosswalk-cordova-10.39.235.15-x86.zip"
-CROSS_WALK_ARM="https://download.01.org/crosswalk/releases/crosswalk/android/stable/$CROSSWALK_VERSION/arm/crosswalk-cordova-10.39.235.15-arm.zip"
+CROSS_WALK_86="https://download.01.org/crosswalk/releases/crosswalk/android/stable/$CROSSWALK_VERSION/x86/crosswalk-cordova-$CROSSWALK_VERSION-x86.zip"
+CROSS_WALK_ARM="https://download.01.org/crosswalk/releases/crosswalk/android/stable/$CROSSWALK_VERSION/arm/crosswalk-cordova-$CROSSWALK_VERSION-arm.zip"
 
 ENGINE_DIR="$base/engine"
 ANDROID_DIR="$base/platforms/android"
